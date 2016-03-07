@@ -1,0 +1,54 @@
+#top {
+    /*background: url(images/bg-line.png) repeat-x center bottom;*/
+    border-bottom: solid 3px #000;
+    height: 50px;
+    line-height: 40px;
+}
+
+header {
+    background: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    margin: 10px 0 10px 0;
+    /*margin: 40px 0 0 0;*/
+    height: 120px;
+}
+
+#content{
+  background: red;
+}
+
+#sidebar {
+  background: green;
+}
+
+footer{
+  border-top: solid 3px #000;
+
+}
+
+
+#primary-navigation{
+    border-top: none;
+    margin: 20px 0 0 0;
+}
+#primary-navigation ul{
+    list-style: none;
+    line-height: 1;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+#primary-navigation li {
+    float: left;
+    width: auto;
+}
+
+#primary-navigation a {
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 10px 0 20px;
+    padding: 8px 0 50px;
+    line-height: 20px;
+}
